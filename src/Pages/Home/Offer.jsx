@@ -16,13 +16,13 @@ const Offer = () => {
       >
         <div className="h-[60vh] relative">
           <img
-            className="right-[45%] md:right-20 top-10 absolute"
+            className="right-[35%] md:right-20 top-10 absolute"
             src={logo}
             alt=""
           />
-          <div className="flex justify-center items-center text-center md:text-left md:justify-start md:items-center h-[60vh] md:ml-10 mt-5 md:mt-0">
+          <div className="flex justify-center items-center text-center md:text-left md:justify-start md:items-center h-[60vh] md:ml-10 pt-12 md:pt-0">
             <div className="text-white">
-              <h2 className="text-4xl font-bold mb-10">
+              <h2 className="md:text-4xl font-bold mb-10">
                 Get Your <br />
                 First Appointment <br />
                 at 50% Off!

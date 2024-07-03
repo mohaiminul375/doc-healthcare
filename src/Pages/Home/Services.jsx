@@ -5,7 +5,7 @@ import img2 from "../../assets/Rectangle 27.png"
 const Services = () => {
   return (
     <section className="mt-40">
-      <div className="flex justify-between">
+      <div className="flex flex-col md:flex-row justify-between items-center">
         <div className="space-y-10 md:w-1/2 mr-32">
           <button className="border-2 border-[#020043] text-[#020043] px-4 py-2 rounded-full text-base">
             Service
@@ -22,54 +22,54 @@ const Services = () => {
             Appointment <LuArrowUpRight />
           </button>
         </div>
-        <div className="md:w-1/2 relative">
+        <div className="md:w-1/2 relative pt-10 md:pt-0">
           <img className="rounded-xl" src={service_img} alt="" />
-          <div className="bg-[#020043] bg-opacity-60 text-white p-5 w-[325px] rounded-xl absolute bottom-5 left-5 flex items-end">
+          <div className="bg-[#020043] bg-opacity-60 text-white p-5 lg:w-[325px] rounded-xl absolute bottom-5 left-5 flex items-end">
             <div>
-              <h3 className="text-xl font-bold opacity-100">
+              <h3 className="text-base lg:text-xl font-bold opacity-100">
                 Advanced Technology
               </h3>
-              <p>
+              <p className="text-sm md:text-base">
                 Our surgeons are trained in the latest robotic surgical
                 techniques, which allow for greater precision
               </p>
             </div>
-            <span className="p-5 bg-[#FFC637] text-white rounded-full">
+            <span className="lg:p-5 bg-[#FFC637] text-white rounded-full">
             <LuMoveUpRight  className="text-xl font-bold"  />
             </span>
           </div>
         </div>
       </div>
       {/* img */}
-      <div className="flex justify-between mt-16">
+      <div className="flex flex-col md:flex-row justify-between items-center mt-16">
       <div className="md:w-1/2 relative">
           <img className="rounded-xl" src={img1} alt="" />
-          <div className="bg-[#020043] bg-opacity-60 text-white p-5 w-[325px] rounded-xl absolute bottom-5 left-5 flex items-end">
+          <div className="bg-[#020043] bg-opacity-60 text-white p-5 lg:w-[325px] rounded-xl absolute bottom-5 left-5 flex items-end">
             <div>
-              <h3 className="text-xl font-bold opacity-100">
+              <h3 className="text-base lg:text-xl font-bold opacity-100">
               Online Doctor Meet
               </h3>
-              <p>
+              <p className="text-sm md:text-base">
               Our surgeons are trained in the latest robotic surgical techniques, which allow for greater precision
               </p>
             </div>
-            <span className="p-5 bg-[#FFC637] text-white rounded-full">
+            <span className="lg:p-5 bg-[#FFC637] text-white rounded-full">
             <LuMoveUpRight  className="text-xl font-bold"  />
             </span>
           </div>
         </div>
-        <div className="md:w-1/2 md:ml-32 relative">
+        <div className="md:w-1/2 md:ml-32 relative pt-10 md:pt-0">
           <img className="rounded-xl" src={img2} alt="" />
-          <div className="bg-[#020043] bg-opacity-60 text-white p-5 w-[325px] rounded-xl absolute bottom-5 left-5 flex items-end">
+          <div className="bg-[#020043] bg-opacity-60 text-white p-5 lg:w-[325px] rounded-xl absolute bottom-5 left-5 flex items-end">
             <div>
-              <h3 className="text-xl font-bold opacity-100">
+              <h3 className="text-base lg:text-xl font-bold opacity-100">
               Consultancy your health
               </h3>
-              <p>
+              <p className="text-sm md:text-base">
               Our surgeons are trained in the latest robotic surgical techniques, which allow for greater precision
               </p>
             </div>
-            <span className="p-5 bg-[#FFC637] text-white rounded-full">
+            <span className="lg:p-5 bg-[#FFC637] text-white rounded-full">
             <LuMoveUpRight  className="text-xl font-bold"  />
             </span>
           </div>
