@@ -1,8 +1,34 @@
-# React + Vite
+# Doc Health Care
+- A health care landing page
+# Live URL: https://doc-health-care.netlify.app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Run the project Locally
+1. **Clone the Repository**:
 
-Currently, two official plugins are available:
+    ```sh
+      git clone https://github.com/mohaiminul375/doc-healthcare.git
+      cd doc-healthcare
+    ```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. **Install Dependencies**:
+
+    ```sh
+    npm install
+    ```
+
+
+
+3. **Run the Application**:
+
+    ```sh
+    npm run dev -- --host
+    ```
+
+4. **Access the Site**: Open your browser and go to `http://localhost:5173/` or `http://192.168.1.12:5173/` from other devices on the same network to view the application.
+
+# using technology
+- vite
+- react
+- tailwind css
+- daisy UI
+- react icon

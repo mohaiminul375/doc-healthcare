@@ -24,8 +24,8 @@ const BannerContent = () => {
             </h2>
           </div>
         </div>
-        <div className="col-start-1 col-end-4 lg:row-start-7 lg:row-end-13 lg:col-start-3 lg:col-end-6 flex items-end">
-        <div className="md:w-52 bg-[#FFFFF5] p-3 border-2 rounded-lg space-y-2 h-48">
+        <div className="col-start-1 col-end-13 lg:row-start-7 lg:row-end-13 lg:col-start-3 lg:col-end-6 flex items-end">
+        <div className="w-full md:w-52 bg-[#FFFFF5] p-3 border-2 rounded-lg space-y-2 h-48">
                 <h2 className="text-5xl font-bold text-[#020043]">500+</h2>
                 <p>Board-certified doctors</p>
                 <div className="flex justify-end">
@@ -33,8 +33,8 @@ const BannerContent = () => {
                 </div>
               </div>
         </div>
-        <div className="col-start-5 col-end-9 lg:row-start-7 lg:row-end-13 lg:col-start-6 lg:col-end-8 flex items-end">
-        <div className="md:w-52 bg-[#FBFBFB] p-3 border-2 rounded-lg space-y-2 h-40">
+        <div className="col-start-1 col-end-13 lg:row-start-7 lg:row-end-13 lg:col-start-6 lg:col-end-8 flex items-end">
+        <div className="w-full md:w-52 bg-[#FBFBFB] p-3 border-2 rounded-lg space-y-2 h-40">
                 <h2 className="text-5xl font-bold text-[#020043] flex items-center">4.8 <FaStar className="text-[#FFE03D] text-2xl" /></h2>
                 <p>Over 20,000 Patient</p>
                 <div className="flex justify-start">
@@ -42,8 +42,8 @@ const BannerContent = () => {
                 </div>
               </div>
         </div>
-        <div className="col-start-9 col-end-13 lg:row-start-7 lg:row-end-13 lg:col-start-9 lg:col-end-11 flex items-end">
-        <div className="md:w-52 bg-[#FFFFF5] p-3 border-2 rounded-lg space-y-2 h-48">
+        <div className="col-start-1 col-end-13 lg:row-start-7 lg:row-end-13 lg:col-start-9 lg:col-end-11 flex items-end">
+        <div className="w-full md:w-52 bg-[#FFFFF5] p-3 border-2 rounded-lg space-y-2 h-48">
                 <h2 className="text-5xl font-bold text-[#020043]">$5000</h2>
                 <p>Money spend for poor patient</p>
                 <div className="flex justify-end">
