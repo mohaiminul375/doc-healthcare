@@ -4,7 +4,7 @@ const About = () => {
     return (
         <section className="mt-40">
             <div className="flex flex-col md:flex-row justify-between items-center">
-                <div className='space-y-10 md:w-1/2 mr-32'>
+                <div className='space-y-10 md:w-1/2 md:mr-32'>
                      <button className="border-2 border-[#020043] text-[#020043] p-3 rounded-full text-base">Who we are</button>
                      <h2 className="text-4xl font-bold text-[#020043]">We Help To Get <br /> Soultions</h2>
                      <p className="text-[#4D4C7B] text-base">We are proud to be a trusted healthcare provider in our community, and we look forward to serving you and your family with excellence, integrity, and compassion. Your health is our priority, and we are here for you every step of the way. We believe in treating each patient with dignity, respect, and empathy, ensuring that they receive the attention and care they deserve.

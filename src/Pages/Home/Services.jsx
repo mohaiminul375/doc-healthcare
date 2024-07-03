@@ -6,7 +6,7 @@ const Services = () => {
   return (
     <section className="mt-40">
       <div className="flex flex-col md:flex-row justify-between items-center">
-        <div className="space-y-10 md:w-1/2 mr-32">
+        <div className="space-y-10 md:w-1/2 md:mr-32">
           <button className="border-2 border-[#020043] text-[#020043] px-4 py-2 rounded-full text-base">
             Service
           </button>
