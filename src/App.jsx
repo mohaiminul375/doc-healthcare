@@ -7,7 +7,9 @@ function App() {
   return (
     <>
       <Navbar></Navbar>
+      <div className="md:px-10">
       <Outlet></Outlet>
+      </div>
       <Footer></Footer>
     </>
   );
