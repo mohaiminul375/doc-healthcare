@@ -1,6 +1,6 @@
 # Doc Health Care
 - A health care landing page
-# Live URL: https://doc-health-care.netlify.app
+# Live URL: https://doc-healthcare.vercel.app
 
 # Run the project Locally
 1. **Clone the Repository**:
